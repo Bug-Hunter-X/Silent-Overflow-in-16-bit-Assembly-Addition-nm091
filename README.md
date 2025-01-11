@@ -1,0 +1,3 @@
+# Silent Overflow in 16-bit Assembly Addition
+
+This repository demonstrates a common but easily overlooked error in assembly programming: silent overflow during arithmetic operations on 16-bit registers.  The `bug.asm` file contains code that adds two values, but fails to handle the possibility of an overflow.  The `bugSolution.asm` file provides a corrected version that incorporates overflow checking.
